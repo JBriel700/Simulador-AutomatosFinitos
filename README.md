@@ -89,7 +89,7 @@ print("sucesso!")
 
 ## Como usar
 
-O programa é executado pelo comando: 
+O programa pode ser executado pelo comando: 
 
 ```bash
 python main.py estados.aut teste.in resultado.out
