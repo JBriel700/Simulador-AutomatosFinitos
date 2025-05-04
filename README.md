@@ -2,7 +2,7 @@
 
 ## Sobre
 
-Simulador de automatos finitos. Recebe um arquivo no formato JSON contendo as transições de estados e outro no formato CSV 
+Simulador de automatos finitos. Recebe um arquivo em formato JSON contendo as transições de estados e outro em formato CSV 
 contendo as palavras de entrada e o resultado esperado (1 - Aceita/0 - Rejeita). Em seguida, gera um arquivo de saída contendo
 as palavra de entrada, os resultados esperados, os resultados obtidos e o tempo de execução.
 
