@@ -1,0 +1,16 @@
+{
+    "initial": "q0",
+    "final": ["q3"],
+    "transitions": [
+        {"from": "q0", "read": "a", "to": "q0"},
+        {"from": "q0", "read": "b", "to": "q0"},
+        {"from": "q0", "read": "a", "to": "q1"},
+        {"from": "q0", "read": "b", "to": "q4"},
+        {"from": "q1", "read": "b", "to": "q2"},
+        {"from": "q2", "read": "a", "to": "q3"},
+        {"from": "q4", "read": "a", "to": "q5"},
+        {"from": "q5", "read": "b", "to": "q3"},
+        {"from": "q3", "read": "a", "to": "q3"},
+        {"from": "q3", "read": "b", "to": "q3"}
+    ]
+}
