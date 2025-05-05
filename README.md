@@ -71,7 +71,7 @@ for simbolo in palavra:
 
 ### 5. Verifica se um dos estados atuais é final e salva as palavras de entrada, resultados esperados, resultados obtidos e tempo de execução.
 ```python
-ceito = any(estado in automato["final"] for estado in estados) if valido else False
+aceito = any(estado in automato["final"] for estado in estados) if valido else False
             
 saida.write(f"{palavra};{esperado};{1 if aceito else 0};{time.time() - inicio:.6f}\n")
 
