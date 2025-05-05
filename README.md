@@ -20,7 +20,7 @@ except:
     sys.exit()
 ````
 
-### 2. Abre o arquivo de teste para leitura e o arquivo de saída para escrita. Remove espaços em branco e Ignora linhas vazias ou linhas sem o separador ; para cada linha do arquivo de testes.
+### 2. Abre o arquivo de teste para leitura e o arquivo de saída para escrita. Remove espaços em branco e Ignora linhas vazias ou linhas sem o separador ";".
 ```python
 try:
     with open(sys.argv[2], 'r') as testes, open(sys.argv[3], 'w') as saida:
