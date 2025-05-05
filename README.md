@@ -30,7 +30,7 @@ try:
                 continue
 ````
 
-### 3. Separa a palavra de teste e o valor esperado, inicializa o conjunto de estados, marca o início do tempo de processamento e aplica as transições que não consomem símbolo.
+### 3. Separa a palavra de teste e o valor esperado, inicializa o conjunto de estados, marca o início do tempo e aplica as transições vazias.
 ```python
 palavra, esperado = linha.split(';')
             estados = {automato["initial"]}
